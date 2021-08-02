@@ -18,19 +18,19 @@
 CRUD operasyonlarından Read’e karşılık geldiğini söyleyebiliriz.
 <br><br>
 Ör: GET /students kullandığımızda bize öğrenciler listesini dönmesi.</li>
-
+<br><br><br>
 <li><strong><em>POST:</em></strong> Server Api’e body kısmını doldurarak ve veri üzerinde değişiklik yapmak istediğimizde kullanabiliriz
  <br><br>
 Değişilik yapmak ile kastedilen CRUD operasyonlarından Create ve Update kısımlarını kapsar.
 <br><br>
 Ör: Post /createUser ile body kısmına kullanıcı bilgileri girip veritabanında bir kullanıcı oluşturulması istenmesi
 </li>
-
+<br><br><br>
 <li><strong><em>PUT:</em></strong> Post isteğinin özelliklerine sahiptir. Yani CRUD operasyonlarından Create ve Update operasyonlarını yapmak istediğimizde kullanıyoruz. 
 <br><br>
 Post’dan ayrılan tarafı Put isteğinin idempotent ve not cacheable olarak tanımlanması
 </li>
-
+<br><br><br>
 <li><strong><em>DELETE:</em></strong> CRUD operasyonlarından Delete’e karşılık gelir. Bir veriyi silmek istediğimizde kullanılması tavsiye ediliyor
  </li>
 </ol>

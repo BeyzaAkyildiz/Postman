@@ -1,4 +1,7 @@
-<h1>Postman Nedir?</h1>
+
+<h1>Postman</h1>
+<br><br>
+<h2>Postman Nedir?</h2>
 
 
 --------------
@@ -8,8 +11,8 @@
 <li>Postman sayesinde uzun uzun kodlar yazmak yerine API’lerimizi kolayca test edebiliriz. Birçok özelliği sayesinde kolay bir şekilde istek hazırlayıp gelen cevap değerlerini kullanabiliriz</li>
 </ul>
 <br><br><br>
-<h2>POST-GET-PUT-DELETE</h2>
- 
+<h3>POST-GET-PUT-DELETE</h3>
+ <br>
 <p>İstek metod türlerimiz bulunmaktadır, en çok kullanılanları ise GET, POST, PUT, DELETE metodlarıdır.
 <br> Not: CRUD operasyonları Create, Read, Update, Delete olarak adlandırılmaktadır.</p>
 
@@ -37,4 +40,11 @@ Post’dan ayrılan tarafı Put isteğinin idempotent ve not cacheable olarak ta
 </ol>
 <br><br><br>
 <h2>API Nedir?</h2>
+<br>
 <p>API(Application Programming Interface) bizim dilimizde “Uygulama Programlama Arayüzü”, bir uygulamanın işlevlerine dışarıdan veya uzaktan erişilip bu işlevlerin kullanılmasını sağlayan arayüzdür. API, bir sunucunun üzerindeki uygulamaya farklı platformlardan ulaşılmasını ve response dönmesine olanak sağlar. Web API’lerinin tamamı REST(REpresentational State Transfer) mimarisi üzerinde dizayn edilir. Bundan dolayı platform bağımsız çalışır. Bu mimari GET, POST, PUT, DELETE metotlarının hepsini desteklemektedir. Web API çıktıları talebe göre JSON, XML gibi çeşitli çıktıları olabilir.</p>
+<h2>API Kullanımı</h2>
+<br>
+<p>API kullanımın asıl amacı bir uygulamanın bütün veya bazı metotlarını diğer uygulamalara kullanıma açarak uzaktan gelecek veri ve bilgi taleplerini kolayca ve hızlıca karşılamaktadır. Böylelikle tek bir uygulamada gerçekleşen işlemlerden izin verilen uzak kullanıcılar belirli parametreler sayesinde faydalanabileceklerdir. API genel olarak gerçek zamanlı veriyi tek tek işlemeye yarar. Sunucunun API üzerinden gönderdiği parametre içeren veya içermeyen girdiyi sunucu işler ve geriye bir sonuç kümesi veya sadece başarı bildirimi döner. Verinin sadece belli bir kısmında yapılacak güncellemeler bir parametre gerektirir. API ise bu işlemlerin hem hızlı hemde pratik olmasını sağlar.</p>
+<h2>Entegrasyonu Nasıl Yapılır?</h2>
+<p>Entegrasyon tarafına gelecek olursak, karşıdaki sunucunun API üzerinden izin verdiği fonksiyonları kullanabilmek için öncelikle istemciyi tanıtacak bir key gereklidir. Daha sonra bu key ile kullanılabilecek erişimi onaylayacak olan bir şifre almak gerekir. API hizmeti veren sunucu tarafındaki kurum, ilk olarak istemcinin başvurusunda key ve şifreyi ister. İstenen fonksiyonlar kullanılır ve istenen bilgiler karşı uygulamadan API’lerin döndüğü response’lar vasıtasıyla alınır. İsteğe göre API’lara erişim ile ilgili kısıt konulabilir, bunun nedeni API’leri aşırı meşgul olmasını istememeden kaynaklıdır.</p>
+<br>

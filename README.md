@@ -2,8 +2,6 @@
 <h1>Postman</h1>
 <br><br>
 <h2>Postman Nedir?</h2>
-
-
 --------------
 <ul>
 <li>Postman, Chrome uzantısı olarak kullanabileceğimiz veya direct indirip bilgisayarımıza yükleyebileceğimiz bir uygulamadır. Rest Client olarak da tanımlanabilir.</li>
@@ -81,13 +79,20 @@ Post’dan ayrılan tarafı Put isteğinin idempotent ve not cacheable olarak ta
 <li>Web serviste çalışacak metot URI (Uniform Resource Identifier) yani Tekdüzen Kaynak Tanımlayıcısı ile HTTP üzerinden çağırılır.</li>
 </ul>
 <br>
-<h2>RESTful API </h2>
+<h2>Rest ile Soap Farkı</h2>
+<p><strong>Güvenlik:</strong>SOAP üzerinde güvenlik(security) sağlamak daha kolay ve hızlı iken, bu durum REST için karmaşık olabiliyor.</p>
+<p><strong>Data Yapısı:</strong>REST ile JSON, XML hatta TEXT ile çalışabiliyorken, SOAP ile XML kullanmalıyız. REST bu sayede daha kullanışlı olabiliyor.</p>
+<p><strong>Uygulama Hızı:</strong>REST kullanımı, SOAP'a göre Uygulamanın daha hızlı çalışmasını sağlar</p>
+<p><strong>Destek:</strong>SOAP için geliştirici araçları daha iyidir, yardımcı olacak daha çok kaynak bulabiliriz. REST’in dökümantasyonu SOAP’a göre daha azdır.</p>
+
+<h2>RESTful API</h2>
 <ul>
 <li>Rest de temelinde HTTP protokolü üzerinden haberleşen bir mimari yaklaşımdır. Bu mimari yaklaşımı kullanan API'lara da Restful API olarak adlandırıyoruz. </li>
 <li>Restful standardı daha eski ve katı kuralları olan SOAP servislere bir çözüm olarak geliştirilmiş ve tercih edilmiştir.</li>
 <li>Restful olarak geliştirilmiş bir API üzerinden genellikle JSON tipinde dönüş yapılması tercih edilir fakat amaca ve isteğe göre XML, CSV, HTML veya düz bir metin olarak dönüş alabilirsiniz.</li>
 <li>Restul API üzerinde HTTP protokünde yer alan çeşitli tipleri(GET,PUT,POST,DELETE) de etkin bir şekilde kullanıyoruz. Bu şekilde anlamlı URL'ler oluşturup göze ve programcıya hoş gelen linkler kolaylıkla oluşturuyoruz.</li>
 </ul>
+
 
 <P></P>
 <P></P>

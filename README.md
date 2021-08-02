@@ -9,5 +9,13 @@
 </ul>
 <h2>POST-GET-PUT-DELETE</h2>
  
-<p>İstek metod türlerimiz bulunmakta, en çok kullanılanları ise GET, POST, PUT, DELETE metodlarıdır.
-Note: CRUD operasyonları Create, Read, Update, Delete olarak adlandırılıyor</p>
+<p>İstek metod türlerimiz bulunmaktadır, en çok kullanılanları ise GET, POST, PUT, DELETE metodlarıdır.
+Note: CRUD operasyonları Create, Read, Update, Delete olarak adlandırılmaktadır.</p>
+
+<ol>
+<li><strong><em>GET:</em></strong> Sunucudan sadece veri çekmek(okuma) istiyorsak yani veri üzerinde herhangi bir değişiklik(ekleme, slime, modifiye) yapılmayacaksa GET metodunu kullanmamız tavsiye ediliyor.
+<br>CRUD operasyonlarından Read’e karşılık geldiğini söyleyebiliriz.</li>
+<li><strong><em>GET:</em></strong> </li>
+<li><strong><em>GET:</em></strong> </li>
+<li><strong><em>GET:</em></strong> </li>
+</ol>

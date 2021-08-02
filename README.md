@@ -62,13 +62,33 @@ Post’dan ayrılan tarafı Put isteğinin idempotent ve not cacheable olarak ta
 <p>API, programların birbirleriyle nasıl iletişim kurduğunu belirleyen belirli bir dizi kural iken, REST ve SOAP API'ler, API'nin nasıl sunulacağını tanımlar.</p>
 <br>
 <p>Her biri işlevsellik açısından benzerdir ancak birkaç temel farklılıklarla birbirlerinden ayrılırlar.</p>
-<h2>SOAP (Simple Access Protocol)</h2>
+<h2>SOAP API (Simple Access Protocol)</h2>
 <ul>
-<li>internet üzerinden küçük miktarda bilgileri yada mesajları aktarma protokoludur.</li>
+<li>SOAP web servis çağrılarında RPC (Remote Procedure Call) modelini kullanan, istemci/sunucu mantığına dayalı bir protokol olarak ifade edilir</li>
 <li>SOAP mesajları XML formatındadırlar ve genellikle HTTP(Hyper Text Transfer Protocol) protokolu(bazende TCP/IP) kullanılarak gönderilirler.</li>
 <li>SOAP ,XML tabanlı kullanıma mecbur bırakır. Bu konuda esnek değildir.</li>
 
 </ul>
+<br>
+<h2>REST API (Representational State Transfer)</h2>
+<ul>
+<li>HTTP metotlarını kullanan, esnek bir yapıya sahip, istemci – sunucu arasındaki basit bir veri iletişim yoludur. </li>
+<li>Katı kurallara sahip bir protokolden ziyade bir mimari stildir.</li>
+<li>Durumsuzdur (stateless), yani o anki kullanıcı durumu ya da geçmişinden habersizdir. </li>
+<li>Servis yönelimli uygulamalarda REST bize lightweight bir çözüm yapısı sunar.</li>
+<li>REST mimarisi kullanılan dil ve format bakımından gayet esnektir. JSON, XML hatta TEXT dosyasıyla bile veri alışverişi yapabilmemizi sağlar.</li>
+<li>JSON ile aynı veriyi çok daha düşük boyutla taşıyabilir.</li>
+<li>Web serviste çalışacak metot URI (Uniform Resource Identifier) yani Tekdüzen Kaynak Tanımlayıcısı ile HTTP üzerinden çağırılır.</li>
+</ul>
+<br>
+<h2>RESTful API </h2>
+<ul>
+<li>Rest de temelinde HTTP protokolü üzerinden haberleşen bir mimari yaklaşımdır. Bu mimari yaklaşımı kullanan API'lara da Restful API olarak adlandırıyoruz. </li>
+<li>Restful standardı daha eski ve katı kuralları olan SOAP servislere bir çözüm olarak geliştirilmiş ve tercih edilmiştir.</li>
+<li>Restful olarak geliştirilmiş bir API üzerinden genellikle JSON tipinde dönüş yapılması tercih edilir fakat amaca ve isteğe göre XML, CSV, HTML veya düz bir metin olarak dönüş alabilirsiniz.</li>
+<li>Restul API üzerinde HTTP protokünde yer alan çeşitli tipleri(GET,PUT,POST,DELETE) de etkin bir şekilde kullanıyoruz. Bu şekilde anlamlı URL'ler oluşturup göze ve programcıya hoş gelen linkler kolaylıkla oluşturuyoruz.</li>
+</ul>
+
 <P></P>
 <P></P>
 

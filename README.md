@@ -38,13 +38,21 @@ Post’dan ayrılan tarafı Put isteğinin idempotent ve not cacheable olarak ta
 <li><strong><em>DELETE:</em></strong> CRUD operasyonlarından Delete’e karşılık gelir. Bir veriyi silmek istediğimizde kullanılması tavsiye ediliyor
  </li>
 </ol>
-<br><br><br>
+<br><br>
 <h2>API Nedir?</h2>
 <br>
 <p>API(Application Programming Interface) bizim dilimizde “Uygulama Programlama Arayüzü”, bir uygulamanın işlevlerine dışarıdan veya uzaktan erişilip bu işlevlerin kullanılmasını sağlayan arayüzdür. API, bir sunucunun üzerindeki uygulamaya farklı platformlardan ulaşılmasını ve response dönmesine olanak sağlar. Web API’lerinin tamamı REST(REpresentational State Transfer) mimarisi üzerinde dizayn edilir. Bundan dolayı platform bağımsız çalışır. Bu mimari GET, POST, PUT, DELETE metotlarının hepsini desteklemektedir. Web API çıktıları talebe göre JSON, XML gibi çeşitli çıktıları olabilir.</p>
 <h2>API Kullanımı</h2>
 <br>
-<p>API kullanımın asıl amacı bir uygulamanın bütün veya bazı metotlarını diğer uygulamalara kullanıma açarak uzaktan gelecek veri ve bilgi taleplerini kolayca ve hızlıca karşılamaktadır. Böylelikle tek bir uygulamada gerçekleşen işlemlerden izin verilen uzak kullanıcılar belirli parametreler sayesinde faydalanabileceklerdir. API genel olarak gerçek zamanlı veriyi tek tek işlemeye yarar. Sunucunun API üzerinden gönderdiği parametre içeren veya içermeyen girdiyi sunucu işler ve geriye bir sonuç kümesi veya sadece başarı bildirimi döner. Verinin sadece belli bir kısmında yapılacak güncellemeler bir parametre gerektirir. API ise bu işlemlerin hem hızlı hemde pratik olmasını sağlar.</p>
+<p>Amacı bir uygulamanın bütün veya bazı metotlarını diğer uygulamalara kullanıma açarak uzaktan gelecek veri ve bilgi taleplerini kolayca ve hızlıca karşılamaktadır. Böylelikle tek bir uygulamada gerçekleşen işlemlerden izin verilen uzak kullanıcılar belirli parametreler sayesinde faydalanabileceklerdir. API genel olarak gerçek zamanlı veriyi tek tek işlemeye yarar. Sunucunun API üzerinden gönderdiği parametre içeren veya içermeyen girdiyi sunucu işler ve geriye bir sonuç kümesi veya sadece başarı bildirimi döner. Verinin sadece belli bir kısmında yapılacak güncellemeler bir parametre gerektirir. API ise bu işlemlerin hem hızlı hemde pratik olmasını sağlar.</p>
 <h2>Entegrasyonu Nasıl Yapılır?</h2>
-<p>Entegrasyon tarafına gelecek olursak, karşıdaki sunucunun API üzerinden izin verdiği fonksiyonları kullanabilmek için öncelikle istemciyi tanıtacak bir key gereklidir. Daha sonra bu key ile kullanılabilecek erişimi onaylayacak olan bir şifre almak gerekir. API hizmeti veren sunucu tarafındaki kurum, ilk olarak istemcinin başvurusunda key ve şifreyi ister. İstenen fonksiyonlar kullanılır ve istenen bilgiler karşı uygulamadan API’lerin döndüğü response’lar vasıtasıyla alınır. İsteğe göre API’lara erişim ile ilgili kısıt konulabilir, bunun nedeni API’leri aşırı meşgul olmasını istememeden kaynaklıdır.</p>
+<p>Karşıdaki sunucunun API üzerinden izin verdiği fonksiyonları kullanabilmek için istemciyi tanıtacak bir key gereklidir. Daha sonra bu key ile kullanılabilecek erişimi onaylayacak olan bir şifre almak gerekir. API hizmeti veren sunucu tarafındaki kurum, ilk olarak istemcinin başvurusunda key ve şifreyi ister. İstenen fonksiyonlar kullanılır ve istenen bilgiler karşı uygulamadan API’lerin döndüğü response’lar vasıtasıyla alınır. API’lara erişim ile ilgili kısıt konulabilir.</p>
 <br>
+<h2>API'nin Türleri Nelerdir?</h2>
+<br>
+<ul>
+<li>Open API (diğer adıyla Public API) : Minimum kısıtlama ile geliştiriciler ve diğer kullanıcılar tarafından herkesin kullanımına açık API'lerdir.</li>
+<li>Internal API (diğer adıyla Private API) : Harici kullanıcılardan gizlenir ve yalnızca dahili sistemler tarafından açığa çıkarılır. </li>
+<li>Partner API : Stratejik iş ortaklarına veya stratejik iş ortakları tarafından sunulan API'lerdir. Herkese açık değildir ve bunlara erişmek için özel yetkilere ihtiyaçlar vardır. </li>
+<li>Composite API : Composite API'ler birden çok veri veya hizmet API'sini birleştiren API'lerdir. </li>
+</ul>

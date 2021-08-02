@@ -10,12 +10,27 @@
 <h2>POST-GET-PUT-DELETE</h2>
  
 <p>İstek metod türlerimiz bulunmaktadır, en çok kullanılanları ise GET, POST, PUT, DELETE metodlarıdır.
-Note: CRUD operasyonları Create, Read, Update, Delete olarak adlandırılmaktadır.</p>
+<br> Not: CRUD operasyonları Create, Read, Update, Delete olarak adlandırılmaktadır.</p>
 
 <ol>
 <li><strong><em>GET:</em></strong> Sunucudan sadece veri çekmek(okuma) istiyorsak yani veri üzerinde herhangi bir değişiklik(ekleme, slime, modifiye) yapılmayacaksa GET metodunu kullanmamız tavsiye ediliyor.
-<br>CRUD operasyonlarından Read’e karşılık geldiğini söyleyebiliriz.</li>
-<li><strong><em>GET:</em></strong> </li>
-<li><strong><em>GET:</em></strong> </li>
-<li><strong><em>GET:</em></strong> </li>
+<br><br>
+CRUD operasyonlarından Read’e karşılık geldiğini söyleyebiliriz.
+<br><br>
+Ör: GET /students kullandığımızda bize öğrenciler listesini dönmesi.</li>
+
+<li><strong><em>POST:</em></strong> Server Api’e body kısmını doldurarak ve veri üzerinde değişiklik yapmak istediğimizde kullanabiliriz
+ <br><br>
+Değişilik yapmak ile kastedilen CRUD operasyonlarından Create ve Update kısımlarını kapsar.
+<br><br>
+Ör: Post /createUser ile body kısmına kullanıcı bilgileri girip veritabanında bir kullanıcı oluşturulması istenmesi
+</li>
+
+<li><strong><em>PUT:</em></strong> Post isteğinin özelliklerine sahiptir. Yani CRUD operasyonlarından Create ve Update operasyonlarını yapmak istediğimizde kullanıyoruz. 
+<br><br>
+Post’dan ayrılan tarafı Put isteğinin idempotent ve not cacheable olarak tanımlanması
+</li>
+
+<li><strong><em>DELETE:</em></strong> CRUD operasyonlarından Delete’e karşılık gelir. Bir veriyi silmek istediğimizde kullanılması tavsiye ediliyor
+ </li>
 </ol>

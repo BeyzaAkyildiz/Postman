@@ -79,12 +79,12 @@ Post’dan ayrılan tarafı Put isteğinin idempotent ve not cacheable olarak ta
 <li>Web serviste çalışacak metot URI (Uniform Resource Identifier) yani Tekdüzen Kaynak Tanımlayıcısı ile HTTP üzerinden çağırılır.</li>
 </ul>
 <br>
-<h2>Rest ile Soap Farkı</h2>
+<h2>Rest API ile Soap API Farkı</h2>
 <p><strong>Güvenlik:</strong>SOAP üzerinde güvenlik(security) sağlamak daha kolay ve hızlı iken, bu durum REST için karmaşık olabiliyor.</p>
 <p><strong>Data Yapısı:</strong>REST ile JSON, XML hatta TEXT ile çalışabiliyorken, SOAP ile XML kullanmalıyız. REST bu sayede daha kullanışlı olabiliyor.</p>
 <p><strong>Uygulama Hızı:</strong>REST kullanımı, SOAP'a göre Uygulamanın daha hızlı çalışmasını sağlar</p>
 <p><strong>Destek:</strong>SOAP için geliştirici araçları daha iyidir, yardımcı olacak daha çok kaynak bulabiliriz. REST’in dökümantasyonu SOAP’a göre daha azdır.</p>
-
+<br>
 <h2>RESTful API</h2>
 <ul>
 <li>Rest de temelinde HTTP protokolü üzerinden haberleşen bir mimari yaklaşımdır. Bu mimari yaklaşımı kullanan API'lara da Restful API olarak adlandırıyoruz. </li>

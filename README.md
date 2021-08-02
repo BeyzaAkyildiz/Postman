@@ -1,6 +1,4 @@
 
-<h1>Postman</h1>
-<br><br>
 <h2>Postman Nedir?</h2>
 --------------
 <ul>
@@ -92,7 +90,13 @@ Post’dan ayrılan tarafı Put isteğinin idempotent ve not cacheable olarak ta
 <li>Restful olarak geliştirilmiş bir API üzerinden genellikle JSON tipinde dönüş yapılması tercih edilir fakat amaca ve isteğe göre XML, CSV, HTML veya düz bir metin olarak dönüş alabilirsiniz.</li>
 <li>Restul API üzerinde HTTP protokünde yer alan çeşitli tipleri(GET,PUT,POST,DELETE) de etkin bir şekilde kullanıyoruz. Bu şekilde anlamlı URL'ler oluşturup göze ve programcıya hoş gelen linkler kolaylıkla oluşturuyoruz.</li>
 </ul>
-
+<br>
+<h2>Remote API Nedir?</h2>
+<ul>
+<li>"Remote" da API tarafından işlenen kaynakların istekte bulunan bilgisayarın dışında bir yerde olması demektir.</li>
+<li>Remote API'ler, bir iletişim ağı aracılığıyla etkileşim kuracak şekilde tasarlanmıştır.</li>
+<li>Remote API'lerin tümü web API değildir, ancak web API'lerin Remote olduğunu söylemek doğru olur.</li>
+</ul>
 
 <P></P>
 <P></P>

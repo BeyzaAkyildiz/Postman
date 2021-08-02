@@ -56,3 +56,19 @@ Post’dan ayrılan tarafı Put isteğinin idempotent ve not cacheable olarak ta
 <li>Partner API : Stratejik iş ortaklarına veya stratejik iş ortakları tarafından sunulan API'lerdir. Herkese açık değildir ve bunlara erişmek için özel yetkilere ihtiyaçlar vardır. </li>
 <li>Composite API : Composite API'ler birden çok veri veya hizmet API'sini birleştiren API'lerdir. </li>
 </ul>
+<br>
+<h2>REST API ve SOAP API Nedir?</h2>
+<br>
+<p>API, programların birbirleriyle nasıl iletişim kurduğunu belirleyen belirli bir dizi kural iken, REST ve SOAP API'ler, API'nin nasıl sunulacağını tanımlar.</p>
+<br>
+<p>Her biri işlevsellik açısından benzerdir ancak birkaç temel farklılıklarla birbirlerinden ayrılırlar.</p>
+<h2>SOAP (Simple Access Protocol)</h2>
+<ul>
+<li>internet üzerinden küçük miktarda bilgileri yada mesajları aktarma protokoludur.</li>
+<li>SOAP mesajları XML formatındadırlar ve genellikle HTTP(Hyper Text Transfer Protocol) protokolu(bazende TCP/IP) kullanılarak gönderilirler.</li>
+<li>SOAP ,XML tabanlı kullanıma mecbur bırakır. Bu konuda esnek değildir.</li>
+
+</ul>
+<P></P>
+<P></P>
+
